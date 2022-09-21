@@ -13,4 +13,7 @@ public class HomeController {
         return "index";
     }
 
+    public String organization(){return "organization"; }
+
+
 }
