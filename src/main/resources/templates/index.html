@@ -2,10 +2,50 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="index.css">
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Managing Food Waste">
+    <meta name="keywords" content="FoodWaste, Organization, Business, homeowners">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="I. Justino, J. Helander, V. Frydkjaer">
+    <meta http-equiv="refresh" content="1200">
+    <title>Madspild.dk</title>
 </head>
 <body>
+<nav>
+    <ul>
+        <li class="header-menu">
+            <a th:href="@{'/HO'}">Menupunkt 1</a>
+        </li>
+        <li class="header-menu">Menupunkt 2</li>
+        <li class="header-menu">Menupunkt 3</li>
+        <li class="header-menu">Menupunkt 4</li>
+    </ul>
+</nav>
+<div id="welcome">
+    <header>
+        <h1>
+            Madspilds Guiden
+        </h1>
+    </header>
+</div>
+
+<div class="flex-parent">
+
+    <section class="left">
+        <header id="info-setup">
+            About Foodwaste
+        </header>
+    </section>
+
+    <section>
+        <a th:href="@{'/about'}">
+            <img class="Apple"
+                 src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/1990501/apple-clipart-sm.png">
+        </a>
+    </section>
+
+</div>
+
 
 </body>
 </html>
