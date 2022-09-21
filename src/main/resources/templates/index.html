@@ -10,15 +10,23 @@
     <meta http-equiv="refresh" content="1200">
     <title>Madspild.dk</title>
 </head>
+
 <body>
+
 <nav>
     <ul>
-        <li class="header-menu">
-            <a th:href="@{'/HO'}">Menupunkt 1</a>
+        <li class="nav-menu">
+            <a class="nav-link" th:href="@{'/HO'}" title="Big Anime Tiddies">Menupunkt 1</a>
         </li>
-        <li class="header-menu">Menupunkt 2</li>
-        <li class="header-menu">Menupunkt 3</li>
-        <li class="header-menu">Menupunkt 4</li>
+        <li class="nav-menu" >
+            <a class="nav-link" th:href="@{'/Business'}" title="Fuuuuuuck">Menupunkt 2</a>
+        </li>
+        <li class="nav-menu">
+            Menupunkt 3
+        </li>
+        <li class="nav-menu">
+            Menupunkt 4
+        </li>
     </ul>
 </nav>
 <div id="welcome">
@@ -33,12 +41,16 @@
 
     <section class="left">
         <header id="info-setup">
-            About Foodwaste
+            About Foodwaste:
         </header>
+       <ul>
+
+       </ul>
+
     </section>
 
     <section>
-        <a th:href="@{'/about'}">
+        <a th:href="@{'/about'}" title="About Page">
             <img class="Apple"
                  src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/1990501/apple-clipart-sm.png">
         </a>
