@@ -7,8 +7,6 @@
     margin-top: 10px;
     margin-left: 30px;
     margin-right: 30px;
-
-
 }
 
 .nav-link {
@@ -114,7 +112,8 @@ h1 {
 }
 
 p {
-
+text-align: left;
+    font-family: Verdana;
 }
 
 section {

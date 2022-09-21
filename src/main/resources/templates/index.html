@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="I. Justino, J. Helander, V. Frydkjaer">
     <meta http-equiv="refresh" content="1200">
-    <title>Madspild.dk</title>
+    <title>Madspild</title>
 </head>
 
 <body>
@@ -16,16 +16,19 @@
 <nav>
     <ul>
         <li class="nav-menu">
-            <a class="nav-link" th:href="@{'/HO'}" title="Big Anime Tiddies">Menupunkt 1</a>
-        </li>
-        <li class="nav-menu" >
-            <a class="nav-link" th:href="@{'/Business'}" title="Fuuuuuuck">Menupunkt 2</a>
+            <a class="nav-link" th:href="@{'/'}" title="homepage">Forside</a>
         </li>
         <li class="nav-menu">
-            Menupunkt 3
+            <a class="nav-link" th:href="@{'/homeowners'}" title="Tips og tricks til private!">Privatperson</a>
         </li>
         <li class="nav-menu">
-            Menupunkt 4
+            <a class="nav-link" th:href="@{'/business'}" title="info til erhverv">Erhverv</a>
+        </li>
+        <li class="nav-menu">
+            <a class="nav-link" th:href="@{'/foodwaste'}" title="Info om madspild">Om Madspild</a>
+        </li>
+        <li class="nav-menu">
+            <a class="nav-link" th:href="@{'/about'}" title="Info om os">Om os</a>
         </li>
     </ul>
 </nav>
@@ -41,21 +44,28 @@
 
     <section class="left">
         <header id="info-setup">
-            About Foodwaste:
-        </header>
-       <ul>
+            About Foodwaste:<br>
 
-       </ul>
+        </header>
+        <p>
+            Its bad mmkay.<br>
+            Stop eating so much shit.
+        </p>
+        <ul>
+
+        </ul>
 
     </section>
 
     <section>
-        <a th:href="@{'/about'}" title="About Page">
+        <a href="https://www.youtube.com/embed/dQw4w9WgXcQ?start=43" title="About Page" target="_blank">
             <img class="Apple"
                  src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/1990501/apple-clipart-sm.png">
         </a>
-    </section>
+        <!--  <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?start=43" title="YouTube video player" frameborder="0" allow="accelerometer;
+         autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
+    </section>
 </div>
 
 

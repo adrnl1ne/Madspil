@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class AboutController {
 
     @GetMapping("/about")
-    public String About() {
+    public String Foodwaste() {
         return "about";
     }
 }

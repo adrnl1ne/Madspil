@@ -13,8 +13,4 @@ public class HomeController {
     public String home() {
         return "index";
     }
-
-    public String organization(){return "organization"; }
-
-
 }
