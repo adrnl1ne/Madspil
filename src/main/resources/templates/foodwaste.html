@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="apple.css">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="description" content="Managing Food Waste">
     <meta name="keywords" content="FoodWaste, Organization, Business, homeowners">
@@ -14,10 +15,15 @@
 <body>
 
 <nav>
+
+    <section class="apple-box">
+        <a th:href="@{'/'}" title="Home" target="_blank">
+            <img id="apple" class="Apple"
+                 src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/1990501/apple-clipart-sm.png">
+        </a>
+    </section>
     <ul>
-        <li class="nav-menu">
-            <a class="nav-link" th:href="@{'/'}" title="homepage">Index</a>
-        </li>
+
         <li class="nav-menu">
             <a class="nav-link" th:href="@{'/homeowners'}" title="Tips og tricks til private!">Privatperson</a>
         </li>
