@@ -80,6 +80,26 @@ ul {
     background-color: transparent;
     text-decoration: none;
 }
+.foodwaste{
+    z-index: 999;
+    cursor: pointer;
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: fantasy
+}
+
+.foodwaste:hover {
+    color: darkred !important;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.foodwaste:visited {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
 
 
 
@@ -116,6 +136,10 @@ ul {
     margin-top: -20px;
 }
 
-
+footer{
+text-align: center;
+    margin: auto;
+background-color: rgba(255,2555,255,0.3)
+}
 
 
