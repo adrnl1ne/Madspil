@@ -2,6 +2,9 @@ head {
 
 }
 
+section {
+border: 2px dotted transparent;
+}
 
 body {
     background: transparent;
@@ -30,9 +33,6 @@ p {
     font-family: Verdana;
 }
 
-section {
-    border: 2px transparent;
-}
 
 nav {
     height: 50px;
@@ -80,6 +80,7 @@ ul {
     background-color: transparent;
     text-decoration: none;
 }
+
 .foodwaste{
     z-index: 999;
     cursor: pointer;
@@ -119,7 +120,6 @@ ul {
 
 .flex-parent {
     display: flex;
-    border: 2px transparent;
 }
 
 .left {
@@ -139,8 +139,9 @@ ul {
 
 footer{
 text-align: center;
-    margin: auto;
-background-color: rgba(255,2555,255,0.3)
+background-color: rgba(255,2555,255,0.3);
+    position: absolute;
+    bottom: 0;
 }
 
 
