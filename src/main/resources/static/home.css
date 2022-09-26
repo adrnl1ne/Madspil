@@ -41,6 +41,9 @@ p {
     text-align: left;
     font-family: Verdana;
 }
+.p footer{
+    text-align: center;
+}
 
 
 nav {
